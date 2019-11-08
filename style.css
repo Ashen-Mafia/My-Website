@@ -1,15 +1,18 @@
 body (
 	background: 
 }
-
+@keyframes text-animation {
+	0% {font-size: 20px;}
+	50% {font-size: 50px;}
+	100% {font-size: 100px;}
+	}
 h1.text {
 	color: green;
 	font-size: 100px;
 	position: absolute;
 	bottom: 600px;
 	left: 420px;
-	animation-name: text-animation;
-	animation-duration: 3s;
+
 	}
 img.tennis {
 	display: block;
