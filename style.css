@@ -1,13 +1,12 @@
-@keyframes text-animation {
-	0% {font-size: 20px;}
-	50% {font-size: 50px;}
-	100% {font-size: 100px;}
-	}
+body (
+	background: 
+}
+
 h1.text {
 	color: green;
 	font-size: 100px;
 	position: absolute;
-	bottom: 700px;
+	bottom: 600px;
 	left: 420px;
 	animation-name: text-animation;
 	animation-duration: 3s;
@@ -19,3 +18,5 @@ img.tennis {
 	margin-left: auto;
 	margin-right: auto;
 	}
+h2.motto {
+	
