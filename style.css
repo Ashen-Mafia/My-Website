@@ -1,18 +1,22 @@
-body {
-	background-color: skyblue;
+img.background {
+	position: absolute;
+	height: 1180px;
+	width: 1680;
 	}
 @keyframes text-animation {
 	0% {font-size: 20px;}
-	50% {font-size: 50px;}
-	100% {font-size: 100px;}
+	50% {font-size: 40px;}
+	100% {font-size: 60px;}
 	}
 h1.motto {
 	color: gold;
-	font-size: 70px;
+	font-size: 60px;
 	position: absolute;
 	font-style: italic;
 	animation-name: text-animation;
-	animation-duration: 3s;
+	animation-duration: 2s;
+	bottom: 300px;
+	left: 100px;
 	}
 h1.text {
 	color: green;
@@ -20,7 +24,7 @@ h1.text {
 	position: absolute;
 	bottom: 700px;
 	left: 420px;
-	font-family: lucida handwriting;
+	font-family: Lucida Handwriting;
 	}
 img.tennis {
 	display: block;
@@ -33,7 +37,15 @@ img.avatar {
 	display: block;
 	height: 300px;
 	width: 200px;
-	margin-left: 400px;
-	margin-right: 500px;
-	
+	margin-left: auto;
+	margin-right: auto;
 }
+img.anime {
+	height: 300px;
+	width: 200px;
+}
+img.background {
+	position: absolute;
+	height: 1180px;
+	width: 1680;
+	}
