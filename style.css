@@ -1,7 +1,7 @@
 img.background {
 	position: absolute;
 	height: 800px;
-	width: 3000px;
+	width: 32000px;
 	}
 @keyframes text-animation {
 	0% {font-size: 20px;}
