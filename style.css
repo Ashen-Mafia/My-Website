@@ -1,7 +1,7 @@
 img.background {
 	position: absolute;
-	height: 800px;
-	width: 2000px;
+	height: 1000px;
+	width: 1900px;
 	}
 @keyframes text-animation {
 	0% {font-size: 20px;}
@@ -16,7 +16,7 @@ h1.motto {
 	animation-name: text-animation;
 	animation-duration: 2s;
 	bottom: 300px;
-	left: 100px;
+	left: 50px;
 	}
 h1.text {
 	color: green;
@@ -26,22 +26,3 @@ h1.text {
 	left: 420px;
 	font-family: Lucida Handwriting;
 	}
-img.tennis {
-	display: block;
-	height: 300px;
-	width: 300px;
-	margin-left: auto;
-	margin-right: auto;
-	}
-img.avatar {
-	display: block;
-	height: 300px;
-	width: 200px;
-	margin-left: auto;
-	margin-right: auto;
-}
-img.anime {
-	height: 300px;
-	width: 200px;
-}
-
