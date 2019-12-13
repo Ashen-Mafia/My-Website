@@ -1,28 +1,31 @@
-img.background {
-	position: absolute;
-	height: 1000px;
-	width: 1900px;
-	}
 @keyframes text-animation {
 	0% {font-size: 20px;}
 	50% {font-size: 40px;}
 	100% {font-size: 60px;}
 	}
-h1.motto {
-	color: gold;
-	font-size: 60px;
-	position: absolute;
-	font-style: italic;
-	animation-name: text-animation;
-	animation-duration: 2s;
-	bottom: 300px;
-	left: 50px;
-	}
-h1.text {
-	color: green;
-	font-size: 70px;
-	position: absolute;
-	bottom: 700px;
-	left: 420px;
-	font-family: Lucida Handwriting;
-	}
+	h1.motto {
+		color: gold;
+		font-size: 60px;
+		position: absolute;
+		font-style: italic;
+		animation-name: text-animation;
+		animation-duration: 2s;
+		bottom: 300px;
+		left: 50px;
+		}
+		h1.text {
+			color: green;
+			font-size: 70px;
+			position: absolute;
+			bottom: 700px;
+			left: 420px;
+			font-family: Lucida Handwriting;
+			padding: 40px;
+			}
+img:hover {
+	transform: scale(1.1);
+}
+.tennis {
+	height:280px;
+	width:280px
+}
