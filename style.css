@@ -22,14 +22,11 @@
 			font-family: Lucida Handwriting;
 			padding: 40px;
 			}
-img:hover {
-	transform: scale(1.1);
-}
-.tennis {
-	height:280px;
-	width:280px
-}
 body {
 	background-color: skyblue
+}
+
+images {
+	background: yellow;
 }
 
